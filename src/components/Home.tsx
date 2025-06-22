@@ -13,7 +13,7 @@ export default function Home() {
     
     </div>
     <div className="flex-1 flex justify-center  items-center ">    
-       <img src="src\assets\profile pic.jpeg" alt="Profile Pic" className="rounded-full h-125 w-125" />
+       <img src="assets\profile pic.jpeg" alt="Profile Pic" className="rounded-full h-125 w-125" />
        </div>
     </section>
     </>

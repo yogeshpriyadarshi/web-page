@@ -32,17 +32,17 @@ export default function Skill() {
             <div className="grid grid-cols-3 m-2">
               <img
                 alt="tailwindcss logo"
-                src="src\assets\tailwind css.png"
+                src="assets\tailwind css.png"
                 className="h-25 w-25 rounded-lg"
               />
               <img
                 alt="react logo"
-                src="src\assets\React.jpeg"
+                src="assets\React.jpeg"
                 className="h-25 w-25 rounded-lg"
               />
               <img
                 alt="node.js logo"
-                src="src\assets\Node.js_logo.svg.png"
+                src="assets\Node.js_logo.svg.png"
                 className="h-25 w-25 rounded-lg"
               />
             </div>
@@ -53,12 +53,12 @@ export default function Skill() {
             <div className="grid grid-cols-3" >
               <img
                 alt="MySQL"
-                src="src\assets\MySQL.png"
+                src="assets\MySQL.png"
                 className="h-25 w-25 rounded-lg"
               />
               <img
                 alt="MongoDb"
-                src="src\assets\Mongodb.webp"
+                src="assets\Mongodb.webp"
                 className="h-25 w-25 rounded-lg"
               />
             </div>
@@ -68,18 +68,15 @@ export default function Skill() {
              <div className="grid grid-cols-3 m-2" >
               <img
                 alt="VS Code"
-                src="src\assets\VS Code.png"
+                src="assets\VS Code.png"
                 className="h-25 w-25 rounded-lg"
               />
               <img
                 alt="Postman"
-                src="src\assets\Postman.png"
+                src="assets\Postman.png"
                 className="h-25 w-25 rounded-lg"
               />
             </div>
-
-
-
           </div>
         </div>
       </section>

@@ -5,7 +5,7 @@ export default function About() {
 <section id="about" className="text-white flex "> 
 
  <div className="flex-1 h-screen flex justify-center items-center rounded-2xl "> 
-<img alt="Background Imgae" src="src\assets\computer download.jpg" className="rounded-2xl" />
+<img alt="Background Imgae" src="assets\computer download.jpg" className="rounded-2xl" />
   </div>
 
   <div className="flex-1 h-screen flex flex-col justify-center items-center"> 
