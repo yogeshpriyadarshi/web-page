@@ -7,7 +7,7 @@ export default function Header() {
           Yogesh{" "}
         </div>
 
-        <div className=" flex-4/12 mx-15 my-5 text-white flex justify-around">
+        <div className="hidden md:flex-4/12  mx-15 my-5 text-white md:flex justify-around ">
           <a href="#home" className="hover:text-blue-500">
             {" "}
             Home{" "}

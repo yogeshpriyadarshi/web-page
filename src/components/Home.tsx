@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <> 
-    <section id="home" className="flex  h-screen" > 
+    <section id="home" className="  md:flex  md:h-screen w-screen p-15" > 
     <div className="flex-1  text-white flex flex-col justify-center items-center"> 
       <div> 
     <div className="my-3 mx-15"> Hello, I'm </div>

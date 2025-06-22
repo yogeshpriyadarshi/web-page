@@ -6,30 +6,30 @@ export default function Skill() {
           {" "}
           My Skills{" "}
         </h1>
-        <div className="mx-20 grid grid-cols-2 gap-5">
+        <div className="mx-20 grid grid-cols-1 gap-5 md:grid-cols-2">
           <div className="h-auto bg-red-500 rounded-2xl">
             <h1 className="text-center">Language </h1>
-            <div className="grid grid-cols-3 gap-2 m-2 ">
+            <div className="grid grid-cols-1 gap-2 m-2 sm:grid-cols-2 md:grid-cols-3 ">
               <img
                 className="h-25 w-25 rounded-lg"
                 alt="html logo"
-                src="src\assets\html.png"
+                src="assets\html.png"
               />
               <img
                 className="h-25 w-25 rounded-lg "
                 alt="css logo"
-                src="src\assets\css.png"
+                src="assets\css.png"
               />
               <img
                 className="h-25 w-25 rounded-lg"
                 alt="JavaScript"
-                src="src\assets\JavaScript.jpeg"
+                src="assets\JavaScript.jpeg"
               />
             </div>
           </div>
           <div className="auto  bg-red-500 rounded-2xl">
             <h1 className="text-center"> Framework/Library </h1>
-            <div className="grid grid-cols-3 m-2">
+            <div className="grid grid-cols-1 m-2 sm:grid-cols-2 md:grid-cols-3">
               <img
                 alt="tailwindcss logo"
                 src="assets\tailwind css.png"
@@ -50,7 +50,7 @@ export default function Skill() {
 
           <div className="h-auto  bg-red-500 rounded-2xl">
             <h1 className="text-center"> DataBase </h1>
-            <div className="grid grid-cols-3" >
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3" >
               <img
                 alt="MySQL"
                 src="assets\MySQL.png"
@@ -65,7 +65,7 @@ export default function Skill() {
           </div>
           <div className="h-auto  bg-red-500 rounded-2xl">
             <h1 className="text-center"> Tools and Technologies </h1>
-             <div className="grid grid-cols-3 m-2" >
+             <div className="grid grid-cols-1 m-2 sm:grid-cols-2 md:grid-cols-3" >
               <img
                 alt="VS Code"
                 src="assets\VS Code.png"

@@ -1,7 +1,7 @@
 export default function Projects() {
   return (
     <>
-      <section id="project" className="min-h-screen pt-15 flex text-white">
+      <section id="project" className="min-h-screen pt-15 md:flex text-white">
         <div className="flex-9/13">
           <div className="flex justify-center text-3xl m-2"> Major Project</div>
 

@@ -2,7 +2,7 @@
 export default function About() {
   return (
     <>
-<section id="about" className="text-white flex "> 
+<section id="about" className="text-white md:flex "> 
 
  <div className="flex-1 h-screen flex justify-center items-center rounded-2xl "> 
 <img alt="Background Imgae" src="assets\computer download.jpg" className="rounded-2xl" />
