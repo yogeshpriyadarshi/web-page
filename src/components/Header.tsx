@@ -1,13 +1,13 @@
 export default function Header() {
   return (
     <>
-      <header className="flex fixed top-0 w-screen h-15 bg-gray-800  ">
-        <div className=" flex-3/12 mx-15 my-5 text-3xl text-white  ">
+      <header className="fixed top-0 w-screen h-15 bg-gray-800 flex  ">
+        <div className=" text-3xl text-center text-white flex-1/3   ">
           {" "}
-          Yogesh{" "}
+          Portfolio{" "}
         </div>
 
-        <div className="hidden md:flex-4/12  mx-15 my-5 text-white md:flex justify-around ">
+        <div className="text-white  flex-2/3 flex justify-around  ">
           <a href="#home" className="hover:text-blue-500">
             {" "}
             Home{" "}

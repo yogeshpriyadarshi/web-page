@@ -10,10 +10,10 @@ const App = () => {
 
   return (
     <>  
-    <div className="min-h-screen w-full bg-gray-800">
-{/* header */}
+    <div className="min-h-screen  bg-gray-800">
+
 <Header />
-{/* Home */}
+
 <Home />
 
 <About />
