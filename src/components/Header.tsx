@@ -16,14 +16,15 @@ export default function Header() {
             {" "}
             About{" "}
           </a>
-          <a href="#project" className="hover:text-blue-500">
-            {" "}
-            Project{" "}
-          </a>
           <a href="#skill" className="hover:text-blue-500">
             {" "}
             Skill{" "}
           </a>
+          <a href="#project" className="hover:text-blue-500">
+            {" "}
+            Project{" "}
+          </a>
+
           <a href="#certificate" className="hover:text-blue-500">
             {" "}
             certificate{" "}
