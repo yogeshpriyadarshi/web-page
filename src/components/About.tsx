@@ -9,7 +9,7 @@ export default function About() {
            initial={{ opacity: 0, y: -50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
-          className=" m-2 text-3xl text-center">
+          className=" m-2 text-4xl text-center">
             {" "}
             About <span className="text-red-500"> Me </span>
           </motion.div>
@@ -17,7 +17,7 @@ export default function About() {
            initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1 }}
-          className="mx-2 mt-5">
+          className="mx-2 mt-5 text-2xl">
             {" "}
             I’m a Full Stack Developer with a strong foundation in HTML, CSS,
             JavaScript, Tailwind, SQL, MongoDB, Node.js, Express.js, ReactJS,
