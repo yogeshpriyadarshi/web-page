@@ -2,9 +2,9 @@ export default function Skill() {
   return (
     <>
       <section id="skill" className="text-white min-h-screen">
-        <h1 className="text-center text-3xl text-red-500 pt-15 mb-5">
+        <h1 className="text-center text-3xl text-white pt-15 mb-5">
           {" "}
-          Technical Skills{" "}
+          Technical <span className="text-red-500"> Skills </span> {" "}
         </h1>
         <div className="mx-20 grid grid-cols-1 gap-5 md:grid-cols-5">
           <div className="h-30 w-30 flex flex-col justify-center items-center  bg-gray-800 border-2 shadow-2xl shadow-blue-500/50 rounded-2xl hover:bg-blue-200/50">

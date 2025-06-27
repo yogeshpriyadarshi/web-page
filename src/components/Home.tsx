@@ -17,23 +17,35 @@ export default function Home() {
             </motion.div>
 
             <motion.div
-            initial={{ opacity: 0, x: -50 }}
+              initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1 }}
-            className=" text-5xl text-red-700"> Yogesh Priyadarshi </motion.div>
+              className=" text-5xl text-red-700"
+            >
+              {" "}
+              Yogesh Priyadarshi{" "}
+            </motion.div>
 
-            <motion.div 
-            initial={{ opacity: 0, x: 50 }}
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1 }}
-            className=" text-4xl"> Full Stack Developer </motion.div>
+              className=" text-4xl"
+            >
+              {" "}
+              Full Stack Developer{" "}
+            </motion.div>
 
-            <motion.div 
-            initial={{ opacity: 0, y: 50 }}
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
-            className="flex">
-              <a href="https://www.linkedin.com/in/yogesh-priyadarshi-067b9b362/" target="_blank">
+              className="flex"
+            >
+              <a
+                href="https://www.linkedin.com/in/yogesh-priyadarshi-067b9b362/"
+                target="_blank"
+              >
                 {" "}
                 <img
                   src="assets/Contacts/LinkedIN.webp"
@@ -55,17 +67,28 @@ export default function Home() {
                 />{" "}
               </a>
             </motion.div>
+
+            <div className="my-5">
+              <a
+                href="public\Yogesh Priyadarshi.pdf"
+                download="Yogesh Priyadarshi.pdf"
+                className="px-6 py-3 m-5 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition"
+              >
+                Download CV
+              </a>
+            </div>
           </div>
         </div>
 
-        <motion.div 
+        <motion.div
           animate={{ y: [0, -5, 5, -5, 5, 0] }}
-      transition={{
-        duration: 5,
-        repeat: Infinity,
-        ease: "easeInOut"
-      }}
-        className="flex-1 flex justify-center  items-center ">
+          transition={{
+            duration: 5,
+            repeat: Infinity,
+            ease: "easeInOut",
+          }}
+          className="flex-1 flex justify-center  items-center "
+        >
           <img
             src="assets\profile pic.jpeg"
             alt="Profile Pic"

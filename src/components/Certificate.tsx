@@ -3,7 +3,7 @@ export default function Certificate() {
   return (
 <>    
 <section id="certificate"> 
-   <h1 className="text-red-500 text-center text-3xl p-15 m-2"> My Certificate </h1> 
+   <h1 className="text-center text-white text-3xl p-15 m-2"> My <span className="text-red-500" > Certificate </span>  </h1> 
   <div className="flex flex-wrap justify-around gap-5">
        <div className=""> 
              <img alt="JavaScript" src="assets\Certificate\Namaste javascript.webp" className="h-125 w-125 rounded-2xl" />

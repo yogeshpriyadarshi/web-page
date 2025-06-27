@@ -30,9 +30,9 @@ export default function Header() {
             certificate{" "}
           </a>
 
-          <a href="#education" className="hover:text-blue-500">
+          <a href="#contact" className="hover:text-blue-500">
             {" "}
-            Education{" "}
+            Contact Me{" "}
           </a>
         </div>
       </header>
