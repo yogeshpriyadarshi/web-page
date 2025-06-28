@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import SocialMedia from "./SocialMedia";
 
 export default function Home() {
   return (
@@ -35,7 +36,8 @@ export default function Home() {
               {" "}
               Full Stack Developer{" "}
             </motion.div>
-
+            <SocialMedia />
+{/* 
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
@@ -49,24 +51,24 @@ export default function Home() {
                 {" "}
                 <img
                   src="assets/Contacts/LinkedIN.webp"
-                  className="h-15 w-15 rounded-full"
+                  className="h-15 w-15 rounded-full m-1"
                 />{" "}
               </a>
               <a href="https://github.com/yogeshpriyadarshi" target="_blank">
                 {" "}
                 <img
                   src="assets/Contacts/Github.png"
-                  className="h-15 w-15 rounded-full"
+                  className="h-15 w-15 rounded-full m-1"
                 />{" "}
               </a>
               <a>
                 {" "}
                 <img
-                  src="assets/Contacts/LinkedIN.webp"
-                  className="h-15 w-15 rounded-full"
+                  src="assets\Contacts\LeetCode.webp"
+                  className="h-15 w-15 rounded-full m-1"
                 />{" "}
               </a>
-            </motion.div>
+            </motion.div> */}
 
             <div className="my-5">
               <a

@@ -1,3 +1,4 @@
+import SocialMedia from "./SocialMedia";
 
 export default function Contact() {
   return (
@@ -19,7 +20,9 @@ export default function Contact() {
 
                  <div>
                      <img src="assets\Yogesh Priyadarshi.png" /> </div>
-                  <div className="flex">   
+
+<SocialMedia />
+                  {/* <div className="flex">   
                     <a href="https://www.linkedin.com/in/yogesh-priyadarshi-067b9b362/" target="_blank">
                 {" "}
                 <img
@@ -40,7 +43,8 @@ export default function Contact() {
                   src="assets/Contacts/LinkedIN.webp"
                   className="h-15 w-15 rounded-full"
                 />{" "}
-              </a>  </div>
+              </a>  
+              </div> */}
             </div>
             <div className="text-center text-white p-10 " > Made with Heart in India </div>
         </div> 
