@@ -13,7 +13,7 @@ export default function Projects() {
           {" "}
           My <span className="text-red-500 "> Projects</span>
         </h1>
-        <div className="grid grid-cols-3 gap-5 place-items-center">
+        <div className="grid grid-cols-3 gap-10 place-items-center">
           <DevTinder />
           <Netflix />
           <TicTackToe />

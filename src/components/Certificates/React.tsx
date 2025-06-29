@@ -35,7 +35,7 @@ export default function React() {
 
   <div className="h-50 w-75 rounded-2xl bg-gray-500 p-5 relative shadow-lg shadow-blue-500 ">
 
-            <h1 className="text-center text-3xl"> React</h1>
+            <h1 className="text-center text-white text-3xl"> React</h1>
 
             <div className="flex justify-center items-center  ">
 
