@@ -4,8 +4,8 @@ import SocialMedia from "./SocialMedia";
 export default function Home() {
   return (
     <>
-      <section id="home" className=" mx-10 flex h-screen   pt-15">
-        <div className="flex-1  text-white flex flex-col justify-center items-center">
+      <section id="home" className=" mx-10 md:flex h-screen pt-15 ">
+        <div className="flex-1  text-white flex flex-col justify-center items-center m-5">
           <div>
             <motion.div
               initial={{ opacity: 0, y: -50 }}
@@ -37,38 +37,6 @@ export default function Home() {
               Full Stack Developer{" "}
             </motion.div>
             <SocialMedia />
-{/* 
-            <motion.div
-              initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1 }}
-              className="flex"
-            >
-              <a
-                href="https://www.linkedin.com/in/yogesh-priyadarshi-067b9b362/"
-                target="_blank"
-              >
-                {" "}
-                <img
-                  src="assets/Contacts/LinkedIN.webp"
-                  className="h-15 w-15 rounded-full m-1"
-                />{" "}
-              </a>
-              <a href="https://github.com/yogeshpriyadarshi" target="_blank">
-                {" "}
-                <img
-                  src="assets/Contacts/Github.png"
-                  className="h-15 w-15 rounded-full m-1"
-                />{" "}
-              </a>
-              <a>
-                {" "}
-                <img
-                  src="assets\Contacts\LeetCode.webp"
-                  className="h-15 w-15 rounded-full m-1"
-                />{" "}
-              </a>
-            </motion.div> */}
 
             <div className="my-5">
               <a
@@ -89,12 +57,12 @@ export default function Home() {
             repeat: Infinity,
             ease: "easeInOut",
           }}
-          className="flex-1 flex justify-center  items-center "
+          className="flex-1 flex justify-center  items-center m-5 "
         >
           <img
             src="assets\profile pic.jpeg"
             alt="Profile Pic"
-            className="rounded-full h-125 w-125"
+            className="rounded-full md:h-100 md:w-100 h-75 w-75 xl:w-125 xl:h-125 "
           />
         </motion.div>
       </section>

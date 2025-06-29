@@ -16,10 +16,9 @@ export default function Contact() {
 
         <p className="text-white text-3xl text-center m-10">
           {" "}
-          Contact me via mail: yogeshpriyadarshi55@gmail.com{" "}
-        </p>
-
-        <div className="flex justify-around m-10">
+          Contact me via mail: </p> 
+          <p className="text-white sm:text-2xl md:text-3xl text-center sm:m-10">  yogeshpriyadarshi55@gmail.com</p>
+        <div className="sm:flex sm:justify-around m-10">
           <div>
             <footer className="bg-gray-800 text-white py-4 ">
               <div className="container mx-auto px-4 text-center">
@@ -28,7 +27,7 @@ export default function Contact() {
             </footer>
           </div>
           <div>
-            <img src="assets\Yogesh Priyadarshi.png" />
+            <img src="assets\Yogesh Priyadarshi.png" /> 
           </div>
           <SocialMedia />
         </div>
