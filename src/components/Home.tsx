@@ -40,8 +40,8 @@ export default function Home() {
 
             <div className="my-5">
               <a
-                href="public\Yogesh Priyadarshi.pdf"
-                download="Yogesh Priyadarshi.pdf"
+                href="Yogesh.pdf"
+                download="Yogesh.pdf"
                 className="px-6 py-3 m-5 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition"
               >
                 Download CV
